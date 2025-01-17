@@ -1,0 +1,9 @@
+<div class="gridster-page">
+  <gridster [options]="options">
+    @for (item of dashboard; track item) {
+      <gridster-item [item]="item">
+        TEST {{item.maxItemCols}}
+      </gridster-item>
+    }
+  </gridster>
+</div>

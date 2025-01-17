@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { GridsterComponent } from './gridster.component';
+import { GridsterTestComponent } from './gridster-test.component';
 
 describe('GridsterComponent', () => {
-  let component: GridsterComponent;
-  let fixture: ComponentFixture<GridsterComponent>;
+  let component: GridsterTestComponent;
+  let fixture: ComponentFixture<GridsterTestComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [GridsterComponent]
+      imports: [GridsterTestComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(GridsterComponent);
+    fixture = TestBed.createComponent(GridsterTestComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
